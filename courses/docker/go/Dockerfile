@@ -12,4 +12,4 @@ RUN go build -o shouter
 FROM scratch
 COPY --from=builder /app/shouter ./
 ENTRYPOINT [ "./shouter" ]
-CMD ["Code.education Rocks!"] 
+CMD ["Full Cycle Rocks"] 

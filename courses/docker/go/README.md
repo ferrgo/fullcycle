@@ -9,11 +9,28 @@ Create and publish a small (<2MB) helloworld Docker image using [Go](https://gol
 
 https://hub.docker.com/repository/docker/ferrgo/fc-docker-shouter
 
+OR
+
+https://hub.docker.com/repository/docker/ferrgo/fullcycle
+
 ```bash
 docker pull ferrgo/fc-docker-shouter
 docker run ferrgo/fc-docker-shouter
 ```
+
 ```bash
 docker pull ferrgo/fc-docker-shouter
 docker run ferrgo/fc-docker-shouter Can shout something else
+```
+
+OR
+
+```bash
+docker pull ferrgo/fullcycle
+docker run ferrgo/fullcycle
+```
+
+```bash
+docker pull ferrgo/fullcycle
+docker run ferrgo/fullcycle Can shout something else
 ```
